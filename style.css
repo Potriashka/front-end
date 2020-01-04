@@ -19,16 +19,48 @@
 	font-size: 35px;
 	color: #282D33;
 	background-color: white;
-	width: 7%;
+	width: 8%;
 	padding: 7px;
 	margin: 3px;
+	text-align: center;
 
 }
 
-#gam:hover {
+#gam {
+	position: absolute; /* Абсолютное позиционирование */
+    bottom: 605px; /* Положение от нижнего края */
+    right: 1185px;
+    padding: 3px;
+}
+
+#sit {
+	position: absolute; /* Абсолютное позиционирование */
+    bottom: 605px; /* Положение от нижнего края */
+    right: 1330px;
+    padding: 3px;
+}
+
+#sof {
+	position: absolute; /* Абсолютное позиционирование */
+    bottom: 605px; /* Положение от нижнего края */
+    right: 1040px;
+    padding: 3px;
+}
+
+#con {
+	position: absolute; /* Абсолютное позиционирование */
+    bottom: 605px; /* Положение от нижнего края */
+    right: 900px;
+    padding: 3px;
+}
+
+.but:hover {
 	background-color: #B8F1E4;
 }
 
-#sit:hover {
-		background-color: #B8F1E4;
+#tec {
+	color: #6799EF;
+	position: absolute; /* Абсолютное позиционирование */
+    bottom: 733px; /* Положение от нижнего края */
+    right: 750px;
 }
